@@ -6,11 +6,11 @@ import javax.servlet.http.*;
 import java.io.IOException;
 
 @WebServlet(
-        name = "demo",
-        urlPatterns = {"/demo"}
+        name = "madlibs",
+        urlPatterns = {"/MadLibsServlet"}
 )
-public class DemoServlet extends HttpServlet {
 
+public class MadLibsServlet extends HttpServlet {
     /**
      * Handles HTTP GET requests.
      *
@@ -27,6 +27,4 @@ public class DemoServlet extends HttpServlet {
         dispatcher.forward(request, response);
 
     }
-
-
 }
