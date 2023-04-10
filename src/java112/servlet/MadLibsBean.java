@@ -1,5 +1,10 @@
 package java112.servlet;
 
+/**
+ * The MadLibsBean for creating Madlib game
+ * 
+ * @author Shilpa Handa
+ */
 public class MadLibsBean {
     private String name;
     private String noun;
@@ -9,6 +14,7 @@ public class MadLibsBean {
     
     
     /**
+     * gets the name for malib
      * @return
      */
     public String getName() {
@@ -16,6 +22,7 @@ public class MadLibsBean {
     }
 
     /**
+     * sets the name for madlib
      * @param name
      */
     public void setName(String name) {
@@ -23,6 +30,7 @@ public class MadLibsBean {
     }
 
     /**
+     * return the adverb for madlib
      * @return
      */
     public String getAdverb() {
@@ -30,6 +38,7 @@ public class MadLibsBean {
     }
 
     /**
+     * set the adverb for game
      * @param adverb
      */
     public void setAdverb(String adverb) {
@@ -37,6 +46,7 @@ public class MadLibsBean {
     }
 
     /**
+     * sets the noun for game
      * @param noun
      */
     public void setNoun(String noun) {
@@ -44,6 +54,7 @@ public class MadLibsBean {
     }
 
     /**
+     * sets the verb for game
      * @param verb
      */
     public void setVerb(String verb) {
@@ -51,6 +62,7 @@ public class MadLibsBean {
     }
 
     /**
+     * sets the adjective for game
      * @param adjective
      */
     public void setAdjective(String adjective) {
@@ -58,6 +70,7 @@ public class MadLibsBean {
     }
 
     /**
+     * gets the noun for game
      * @return
      */
     public String getNoun() {
@@ -65,6 +78,7 @@ public class MadLibsBean {
     }
 
     /**
+     * gets the verb for game
      * @return
      */
     public String getVerb() {
@@ -72,12 +86,14 @@ public class MadLibsBean {
     }
 
     /**
+     * gets the adjective for game
      * @return
      */
     public String getAdjective() {
         return adjective;
     }
-    
+
+    // returns the story for game
     public String getStory() {
         String story = "Once upon a time, there was a " + noun + " named " + name + ". " +
                 name + " loved to " + verb + " " + adverb + " and " + adjective + " things. " +
