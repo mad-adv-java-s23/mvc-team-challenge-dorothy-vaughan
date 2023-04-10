@@ -1,0 +1,43 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  h1 {
+    color: #000000;
+    text-align: center;
+  }
+  
+  .box {
+    background-color: white;
+    border: 3px solid silver;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid #333;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+    color: #333;
+  }
+  
+  th {
+    background-color: #333;
+    color: white;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  

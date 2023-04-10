@@ -102,3 +102,4 @@ public class MadLibsBean {
                 "to wish for more " + adjective + " and " + adverb + " things.";
         return story;
     }
+}
