@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Madlibs Story Result</title>
+    <title>Mad Libs Story</title>
     <link rel="stylesheet" type="text/css" href="css/madLibsResult.css">
   </head>
   <body>
     <div class="container">
       <h1>Mad Libs Story</h1>
       <div class="box">
-        <%-- Get the MadLibsBean from the request --%>
         <jsp:useBean id="madLibsBean" class="java112.servlet.MadLibsBean" scope="request" />
-        <%-- Use the MadLibsBean to generate the story --%>
         <p><%= madLibsBean.getStory() %></p>
         <table>
           <tr>

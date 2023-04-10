@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Madlibs Game</title>
+    <title>Mad Libs Game</title>
     <link rel="stylesheet" type="text/css" href="css/madLibsStyle.css">
   </head>
   <body>
